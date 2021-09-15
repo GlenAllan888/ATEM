@@ -1,31 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile majorVersion="1" minorVersion="5" product="ATEM Mini Extreme ISO">
     <MacroPool>
-        <Macro index="0" name="Key 1 On" description="">
-            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="True"/>
-        </Macro>
-        <Macro index="1" name="Key 1 Off" description="">
-            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
-        </Macro>
-    	<Macro index="2" name="Key 2 On" description="">
-            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="True"/>
-        </Macro>
-        <Macro index="3" name="Key 2 Off" description="">
+        <Macro index="0" name="Key 2 Off" description="">
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="False"/>
         </Macro>
-        <Macro index="4" name="Key 3 On" description="">
-            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="True"/>
-        </Macro>
-        <Macro index="5" name="Key 3 Off" description="">
-            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
-        </Macro>
-    	<Macro index="6" name="Key 4 On" description="">
-            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="3" onAir="True"/>
-        </Macro>
-        <Macro index="7" name="Key 4 Off" description="">
-            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="3" onAir="False"/>
-        </Macro>
-        <Macro index="8" name="Four Grid Alternate" description="">
+        <Macro index="1" name="Four Grid Alternate" description="">
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="False"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
@@ -57,7 +36,7 @@
             <Op id="MacroSleep" frames="180"/>
             <Op id="HyperDeckStop" hyperDeckIndex="2"/>
         </Macro>
-        <Macro index="9" name="One in the Middle" description="">
+        <Macro index="2" name="One in the Middle" description="">
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="False"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
@@ -84,7 +63,7 @@
             <Op id="MacroSleep" frames="180"/>
             <Op id="HyperDeckStop" hyperDeckIndex="2"/>
         </Macro>
-        <Macro index="10" name="Four Grid" description="">
+        <Macro index="3" name="Four Grid" description="">
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="False"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
@@ -116,7 +95,7 @@
             <Op id="MacroSleep" frames="180"/>
             <Op id="HyperDeckStop" hyperDeckIndex="2"/>
         </Macro>
-        <Macro index="11" name="iPad Pro 12.9 Right" description="">
+        <Macro index="4" name="iPad Pro 12.9 Right" description="">
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="False"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
@@ -143,7 +122,7 @@
             <Op id="MacroSleep" frames="180"/>
             <Op id="HyperDeckStop" hyperDeckIndex="2"/>
         </Macro>
-        <Macro index="12" name="iPad Pro 12.9 Left" description="">
+        <Macro index="5" name="iPad Pro 12.9 Left" description="">
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="False"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
@@ -170,7 +149,7 @@
             <Op id="MacroSleep" frames="180"/>
             <Op id="HyperDeckStop" hyperDeckIndex="2"/>
         </Macro>
-        <Macro index="13" name="Standard - 1" description="">
+        <Macro index="6" name="Standard - 1" description="">
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="False"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
@@ -197,7 +176,7 @@
             <Op id="MacroSleep" frames="180"/>
             <Op id="HyperDeckStop" hyperDeckIndex="2"/>
         </Macro>
-        <Macro index="14" name="Pan's Chaos - EONS" description="{c#702898}">
+        <Macro index="7" name="Pan's Chaos - EONS" description="{c#702898}">
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="False"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
@@ -272,7 +251,7 @@
             <Op id="DownstreamKeyFillInput" keyIndex="1" input="MediaPlayer2"/>
             <Op id="DownstreamKeyCutInput" keyIndex="1" input="MediaPlayer2Key"/>
         </Macro>
-        <Macro index="15" name="BB 1 in the Middle" description="{c#F9C107}{ic#F9C107}">
+        <Macro index="8" name="BB 1 in the Middle" description="{c#F9C107}{ic#F9C107}">
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="False"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
@@ -308,7 +287,7 @@
             <Op id="MacroSleep" frames="180"/>            
             <Op id="HyperDeckStop" hyperDeckIndex="0"/>
         </Macro>
-        <Macro index="16" name="BB 4 Grid Alt" description="{c#F9C017}{ic#F9C107}">
+        <Macro index="9" name="BB 4 Grid Alt" description="{c#F9C017}{ic#F9C107}">
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="False"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
@@ -344,7 +323,7 @@
             <Op id="MacroSleep" frames="180"/> 
             <Op id="HyperDeckStop" hyperDeckIndex="0"/>
         </Macro>
-        <Macro index="17" name="BB Products" description="{c#F9C107}{ic#F9C107}">
+        <Macro index="10" name="BB Products" description="{c#F9C107}{ic#F9C107}">
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="False"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
@@ -377,15 +356,36 @@
             <Op id="HyperDeckSetLoop" hyperDeckIndex="1" loopEnabled="False"/>
             <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="1" clipIndex="0"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="1" speedPercent="1"/>
-            <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>            
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>  
+			<Op id="KeyFlyEnable" mixEffectBlockIndex="0" keyIndex="2" enable="True"/>
+            <Op id="PatternKeyPattern" mixEffectBlockIndex="0" keyIndex="2" pattern="CircleIris"/>
+            <Op id="PatternKeySize" mixEffectBlockIndex="0" keyIndex="2" size="0.410995"/>
+            <Op id="PatternKeySymmetry" mixEffectBlockIndex="0" keyIndex="2" symmetry="0.809998"/>
+            <Op id="PatternKeySoftness" mixEffectBlockIndex="0" keyIndex="2" softness="0.184006"/>
+            <Op id="PatternKeyXPosition" mixEffectBlockIndex="0" keyIndex="2" xPosition="0.486801"/>
+            <Op id="PatternKeyYPosition" mixEffectBlockIndex="0" keyIndex="2" yPosition="0.5"/>
+            <Op id="PatternKeyInvert" mixEffectBlockIndex="0" keyIndex="2" invert="False"/>
+            <Op id="KeyFillInput" mixEffectBlockIndex="0" keyIndex="2" input="Camera1"/>
+            <Op id="KeyCutInput" mixEffectBlockIndex="0" keyIndex="2" input="Black"/>
+            <Op id="KeyMaskEnable" mixEffectBlockIndex="0" keyIndex="2" enable="True"/>
+            <Op id="KeyMaskTop" mixEffectBlockIndex="0" keyIndex="2" top="8.82001"/>
+            <Op id="KeyMaskBottom" mixEffectBlockIndex="0" keyIndex="2" bottom="-9.00002"/>
+            <Op id="KeyMaskLeft" mixEffectBlockIndex="0" keyIndex="2" left="-10.46"/>
+            <Op id="KeyMaskRight" mixEffectBlockIndex="0" keyIndex="2" right="11.32"/>
+            <Op id="DVEAndFlyKeyXSize" mixEffectBlockIndex="0" keyIndex="2" xSize="0.296005"/>
+            <Op id="DVEAndFlyKeyYSize" mixEffectBlockIndex="0" keyIndex="2" ySize="0.296005"/>
+            <Op id="DVEAndFlyKeyXPosition" mixEffectBlockIndex="0" keyIndex="2" xPosition="-13.112"/>
+            <Op id="DVEAndFlyKeyYPosition" mixEffectBlockIndex="0" keyIndex="2" yPosition="6.22"/>                      
             <Op id="MacroSleep" frames="12"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="3" onAir="True"/> 
             <Op id="HyperDeckPlay" hyperDeckIndex="1"/>
+            <Op id="MacroSleep" frames="20"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="True"/>            
             <Op id="HyperDeckPlay" hyperDeckIndex="0"/>
             <Op id="MacroSleep" frames="320"/> 
             <Op id="HyperDeckStop" hyperDeckIndex="0"/>
         </Macro>
-        <Macro index="18" name="BB David &amp; Products" description="{c#F9C107}{ic#F9C107}">
+        <Macro index="11" name="BB David &amp; Products" description="{c#F9C107}{ic#F9C107}">
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="False"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
@@ -420,7 +420,7 @@
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="1" speedPercent="1"/>
             <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>
             <Op id="MacroSleep" frames="12"/>
-            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="3" onAir="True"/> 
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="3" onAir="True"/>           
             <Op id="HyperDeckPlay" hyperDeckIndex="1"/>
             <Op id="HyperDeckPlay" hyperDeckIndex="0"/>
             <Op id="MacroSleep" frames="180"/> 
