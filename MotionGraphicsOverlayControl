@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Profile majorVersion="1" minorVersion="5" product="ATEM Mini Extreme ISO">
+    <MacroPool>
+        <Macro index="0" name="Key 1 On" description="">
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="True"/>
+        </Macro>
+        <Macro index="1" name="Key 1 Off" description="">
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
+        </Macro>
+    	<Macro index="2" name="Key 2 On" description="">
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="True"/>
+        </Macro>
+        <Macro index="3" name="Key 2 Off" description="">
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="False"/>
+        </Macro>
+        <Macro index="4" name="Key 3 On" description="">
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="True"/>
+        </Macro>
+        <Macro index="5" name="Key 3 Off" description="">
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
+        </Macro>
+    	<Macro index="6" name="Key 4 On" description="">
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="3" onAir="True"/>
+        </Macro>
+        <Macro index="7" name="Key 4 Off" description="">
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="3" onAir="False"/>
+        </Macro>
+        <Macro index="8" name="Four Grid Alternate" description="">
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="3" onAir="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="0" onAir="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="1" onAir="False"/>  
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="1" singleClipEnabled="False"/>
+            <Op id="HyperDeckSetLoop" hyperDeckIndex="1" loopEnabled="True"/>
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="1" clipIndex="14"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="1" speedPercent="1"/>
+            <Op id="HyperDeckPlay" hyperDeckIndex="1"/>                                  
+            <Op id="LumaKeyPreMultiply" mixEffectBlockIndex="0" keyIndex="1" preMultiply="True"/>
+            <Op id="LumaKeyClip" mixEffectBlockIndex="0" keyIndex="1" clip="0.5"/>
+            <Op id="LumaKeyGain" mixEffectBlockIndex="0" keyIndex="1" gain="0.699997"/>
+            <Op id="LumaKeyInvert" mixEffectBlockIndex="0" keyIndex="1" invert="False"/>
+            <Op id="KeyFillInput" mixEffectBlockIndex="0" keyIndex="1" input="Camera7"/>
+            <Op id="KeyCutInput" mixEffectBlockIndex="0" keyIndex="1" input="Camera8"/>
+            <Op id="KeyMaskEnable" mixEffectBlockIndex="0" keyIndex="1" enable="False"/>
+            <Op id="KeyMaskTop" mixEffectBlockIndex="0" keyIndex="1" top="9"/>
+            <Op id="KeyMaskBottom" mixEffectBlockIndex="0" keyIndex="1" bottom="-9.00002"/>
+            <Op id="KeyMaskLeft" mixEffectBlockIndex="0" keyIndex="1" left="-16"/>
+            <Op id="KeyMaskRight" mixEffectBlockIndex="0" keyIndex="1" right="16"/>
+            <Op id="KeyFlyEnable" mixEffectBlockIndex="0" keyIndex="1" enable="False"/>
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="2" clipIndex="11"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="2" speedPercent="1"/>
+            <Op id="MacroSleep" frames="8"/>
+            <Op id="HyperDeckPlay" hyperDeckIndex="2"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="True"/>
+            <Op id="MacroSleep" frames="180"/>
+            <Op id="HyperDeckStop" hyperDeckIndex="2"/>
+        </Macro>
+        <Macro index="9" name="One in the Middle" description="">
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="3" onAir="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="0" onAir="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="1" onAir="False"/>
+            <Op id="LumaKeyPreMultiply" mixEffectBlockIndex="0" keyIndex="1" preMultiply="True"/>
+            <Op id="LumaKeyClip" mixEffectBlockIndex="0" keyIndex="1" clip="0.5"/>
+            <Op id="LumaKeyGain" mixEffectBlockIndex="0" keyIndex="1" gain="0.699997"/>
+            <Op id="LumaKeyInvert" mixEffectBlockIndex="0" keyIndex="1" invert="False"/>
+            <Op id="KeyFillInput" mixEffectBlockIndex="0" keyIndex="1" input="Camera7"/>
+            <Op id="KeyCutInput" mixEffectBlockIndex="0" keyIndex="1" input="Camera8"/>
+            <Op id="KeyMaskEnable" mixEffectBlockIndex="0" keyIndex="1" enable="False"/>
+            <Op id="KeyMaskTop" mixEffectBlockIndex="0" keyIndex="1" top="9"/>
+            <Op id="KeyMaskBottom" mixEffectBlockIndex="0" keyIndex="1" bottom="-9.00002"/>
+            <Op id="KeyMaskLeft" mixEffectBlockIndex="0" keyIndex="1" left="-16"/>
+            <Op id="KeyMaskRight" mixEffectBlockIndex="0" keyIndex="1" right="16"/>
+            <Op id="KeyFlyEnable" mixEffectBlockIndex="0" keyIndex="1" enable="False"/>
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="2" clipIndex="1"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="2" speedPercent="1"/>
+            <Op id="MacroSleep" frames="8"/>
+            <Op id="HyperDeckPlay" hyperDeckIndex="2"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="True"/>
+            <Op id="MacroSleep" frames="180"/>
+            <Op id="HyperDeckStop" hyperDeckIndex="2"/>
+        </Macro>
+        <Macro index="10" name="Four Grid" description="">
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="3" onAir="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="0" onAir="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="1" onAir="False"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="1" singleClipEnabled="False"/>
+            <Op id="HyperDeckSetLoop" hyperDeckIndex="1" loopEnabled="True"/>
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="1" clipIndex="14"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="1" speedPercent="1"/>
+            <Op id="HyperDeckPlay" hyperDeckIndex="1"/>            
+            <Op id="LumaKeyPreMultiply" mixEffectBlockIndex="0" keyIndex="1" preMultiply="True"/>
+            <Op id="LumaKeyClip" mixEffectBlockIndex="0" keyIndex="1" clip="0.5"/>
+            <Op id="LumaKeyGain" mixEffectBlockIndex="0" keyIndex="1" gain="0.699997"/>
+            <Op id="LumaKeyInvert" mixEffectBlockIndex="0" keyIndex="1" invert="False"/>
+            <Op id="KeyFillInput" mixEffectBlockIndex="0" keyIndex="1" input="Camera7"/>
+            <Op id="KeyCutInput" mixEffectBlockIndex="0" keyIndex="1" input="Camera8"/>
+            <Op id="KeyMaskEnable" mixEffectBlockIndex="0" keyIndex="1" enable="False"/>
+            <Op id="KeyMaskTop" mixEffectBlockIndex="0" keyIndex="1" top="9"/>
+            <Op id="KeyMaskBottom" mixEffectBlockIndex="0" keyIndex="1" bottom="-9.00002"/>
+            <Op id="KeyMaskLeft" mixEffectBlockIndex="0" keyIndex="1" left="-16"/>
+            <Op id="KeyMaskRight" mixEffectBlockIndex="0" keyIndex="1" right="16"/>
+            <Op id="KeyFlyEnable" mixEffectBlockIndex="0" keyIndex="1" enable="False"/>
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="2" clipIndex="10"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="2" speedPercent="1"/>
+            <Op id="MacroSleep" frames="8"/>
+            <Op id="HyperDeckPlay" hyperDeckIndex="2"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="True"/>
+            <Op id="MacroSleep" frames="180"/>
+            <Op id="HyperDeckStop" hyperDeckIndex="2"/>
+        </Macro>
+        <Macro index="11" name="iPad Pro 12.9 Right" description="">
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="3" onAir="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="0" onAir="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="1" onAir="False"/>
+            <Op id="LumaKeyPreMultiply" mixEffectBlockIndex="0" keyIndex="1" preMultiply="True"/>
+            <Op id="LumaKeyClip" mixEffectBlockIndex="0" keyIndex="1" clip="0.5"/>
+            <Op id="LumaKeyGain" mixEffectBlockIndex="0" keyIndex="1" gain="0.699997"/>
+            <Op id="LumaKeyInvert" mixEffectBlockIndex="0" keyIndex="1" invert="False"/>
+            <Op id="KeyFillInput" mixEffectBlockIndex="0" keyIndex="1" input="Camera7"/>
+            <Op id="KeyCutInput" mixEffectBlockIndex="0" keyIndex="1" input="Camera8"/>
+            <Op id="KeyMaskEnable" mixEffectBlockIndex="0" keyIndex="1" enable="False"/>
+            <Op id="KeyMaskTop" mixEffectBlockIndex="0" keyIndex="1" top="9"/>
+            <Op id="KeyMaskBottom" mixEffectBlockIndex="0" keyIndex="1" bottom="-9.00002"/>
+            <Op id="KeyMaskLeft" mixEffectBlockIndex="0" keyIndex="1" left="-16"/>
+            <Op id="KeyMaskRight" mixEffectBlockIndex="0" keyIndex="1" right="16"/>
+            <Op id="KeyFlyEnable" mixEffectBlockIndex="0" keyIndex="1" enable="False"/>
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="2" clipIndex="21"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="2" speedPercent="1"/>
+            <Op id="MacroSleep" frames="8"/>
+            <Op id="HyperDeckPlay" hyperDeckIndex="2"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="True"/>
+            <Op id="MacroSleep" frames="180"/>
+            <Op id="HyperDeckStop" hyperDeckIndex="2"/>
+        </Macro>
+        <Macro index="12" name="iPad Pro 12.9 Left" description="">
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="3" onAir="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="0" onAir="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="1" onAir="False"/>
+            <Op id="LumaKeyPreMultiply" mixEffectBlockIndex="0" keyIndex="1" preMultiply="True"/>
+            <Op id="LumaKeyClip" mixEffectBlockIndex="0" keyIndex="1" clip="0.5"/>
+            <Op id="LumaKeyGain" mixEffectBlockIndex="0" keyIndex="1" gain="0.699997"/>
+            <Op id="LumaKeyInvert" mixEffectBlockIndex="0" keyIndex="1" invert="False"/>
+            <Op id="KeyFillInput" mixEffectBlockIndex="0" keyIndex="1" input="Camera7"/>
+            <Op id="KeyCutInput" mixEffectBlockIndex="0" keyIndex="1" input="Camera8"/>
+            <Op id="KeyMaskEnable" mixEffectBlockIndex="0" keyIndex="1" enable="False"/>
+            <Op id="KeyMaskTop" mixEffectBlockIndex="0" keyIndex="1" top="9"/>
+            <Op id="KeyMaskBottom" mixEffectBlockIndex="0" keyIndex="1" bottom="-9.00002"/>
+            <Op id="KeyMaskLeft" mixEffectBlockIndex="0" keyIndex="1" left="-16"/>
+            <Op id="KeyMaskRight" mixEffectBlockIndex="0" keyIndex="1" right="16"/>
+            <Op id="KeyFlyEnable" mixEffectBlockIndex="0" keyIndex="1" enable="False"/>
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="2" clipIndex="20"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="2" speedPercent="1"/>
+            <Op id="MacroSleep" frames="8"/>
+            <Op id="HyperDeckPlay" hyperDeckIndex="2"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="True"/>
+            <Op id="MacroSleep" frames="180"/>
+            <Op id="HyperDeckStop" hyperDeckIndex="2"/>
+        </Macro>
+        <Macro index="13" name="Standard - 1" description="">
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="3" onAir="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="0" onAir="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="1" onAir="False"/>
+            <Op id="LumaKeyPreMultiply" mixEffectBlockIndex="0" keyIndex="1" preMultiply="True"/>
+            <Op id="LumaKeyClip" mixEffectBlockIndex="0" keyIndex="1" clip="0.5"/>
+            <Op id="LumaKeyGain" mixEffectBlockIndex="0" keyIndex="1" gain="0.699997"/>
+            <Op id="LumaKeyInvert" mixEffectBlockIndex="0" keyIndex="1" invert="False"/>
+            <Op id="KeyFillInput" mixEffectBlockIndex="0" keyIndex="1" input="Camera7"/>
+            <Op id="KeyCutInput" mixEffectBlockIndex="0" keyIndex="1" input="Camera8"/>
+            <Op id="KeyMaskEnable" mixEffectBlockIndex="0" keyIndex="1" enable="False"/>
+            <Op id="KeyMaskTop" mixEffectBlockIndex="0" keyIndex="1" top="9"/>
+            <Op id="KeyMaskBottom" mixEffectBlockIndex="0" keyIndex="1" bottom="-9.00002"/>
+            <Op id="KeyMaskLeft" mixEffectBlockIndex="0" keyIndex="1" left="-16"/>
+            <Op id="KeyMaskRight" mixEffectBlockIndex="0" keyIndex="1" right="16"/>
+            <Op id="KeyFlyEnable" mixEffectBlockIndex="0" keyIndex="1" enable="False"/>
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="2" clipIndex="17"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="2" speedPercent="1"/>
+            <Op id="MacroSleep" frames="8"/>
+            <Op id="HyperDeckPlay" hyperDeckIndex="2"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="True"/>
+            <Op id="MacroSleep" frames="180"/>
+            <Op id="HyperDeckStop" hyperDeckIndex="2"/>
+        </Macro>
+        <Macro index="14" name="Pan's Chaos - EONS" description="{c#702898}">
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="3" onAir="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="0" onAir="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="1" onAir="False"/>
+            <Op id="SuperSourceV2BoxInput" superSource="0" boxIndex="3" input="Camera5"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="0" enable="True"/>
+            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="-32.35"/>
+            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="0" yPosition="0"/>
+            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="0" size="1"/>
+            <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="0" enable="True"/>
+            <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="0" top="0"/>
+            <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="0" bottom="0"/>
+            <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="0" left="0"/>
+            <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="0" right="0"/>
+            <Op id="SuperSourceV2BoxInput" superSource="0" boxIndex="0" input="Camera1"/>
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="6"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="0" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetLoop" hyperDeckIndex="0" loopEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>
+            <Op id="HyperDeckPlay" hyperDeckIndex="0"/>
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="1" clipIndex="4"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="1" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetLoop" hyperDeckIndex="1" loopEnabled="True"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="1" speedPercent="1"/>
+            <Op id="HyperDeckPlay" hyperDeckIndex="1"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="True"/>
+            <Op id="LumaKeyPreMultiply" mixEffectBlockIndex="0" keyIndex="0" preMultiply="False"/>
+            <Op id="LumaKeyClip" mixEffectBlockIndex="0" keyIndex="0" clip="0.164993"/>
+            <Op id="LumaKeyGain" mixEffectBlockIndex="0" keyIndex="0" gain="0.373001"/>
+            <Op id="LumaKeyInvert" mixEffectBlockIndex="0" keyIndex="0" invert="True"/>
+            <Op id="KeyFillInput" mixEffectBlockIndex="0" keyIndex="0" input="Camera4"/>
+            <Op id="KeyCutInput" mixEffectBlockIndex="0" keyIndex="0" input="Camera4"/>
+            <Op id="KeyMaskEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
+            <Op id="KeyMaskTop" mixEffectBlockIndex="0" keyIndex="0" top="9"/>
+            <Op id="KeyMaskBottom" mixEffectBlockIndex="0" keyIndex="0" bottom="-9.00002"/>
+            <Op id="KeyMaskLeft" mixEffectBlockIndex="0" keyIndex="0" left="-16"/>
+            <Op id="KeyMaskRight" mixEffectBlockIndex="0" keyIndex="0" right="16"/>
+            <Op id="KeyFlyEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="2" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetLoop" hyperDeckIndex="2" loopEnabled="True"/>
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="2" clipIndex="16"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="2" speedPercent="1"/>
+            <Op id="HyperDeckPlay" hyperDeckIndex="2"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="True"/>
+            <Op id="LumaKeyPreMultiply" mixEffectBlockIndex="0" keyIndex="1" preMultiply="True"/>
+            <Op id="LumaKeyClip" mixEffectBlockIndex="0" keyIndex="1" clip="0.5"/>
+            <Op id="LumaKeyGain" mixEffectBlockIndex="0" keyIndex="1" gain="0.699997"/>
+            <Op id="LumaKeyInvert" mixEffectBlockIndex="0" keyIndex="1" invert="False"/>
+            <Op id="KeyFillInput" mixEffectBlockIndex="0" keyIndex="1" input="Camera7"/>
+            <Op id="KeyCutInput" mixEffectBlockIndex="0" keyIndex="1" input="Camera8"/>
+            <Op id="KeyMaskEnable" mixEffectBlockIndex="0" keyIndex="1" enable="False"/>
+            <Op id="KeyMaskTop" mixEffectBlockIndex="0" keyIndex="1" top="9"/>
+            <Op id="KeyMaskBottom" mixEffectBlockIndex="0" keyIndex="1" bottom="-9.00002"/>
+            <Op id="KeyMaskLeft" mixEffectBlockIndex="0" keyIndex="1" left="-16"/>
+            <Op id="KeyMaskRight" mixEffectBlockIndex="0" keyIndex="1" right="16"/>
+            <Op id="KeyFlyEnable" mixEffectBlockIndex="0" keyIndex="1" enable="False"/>
+            <Op id="MediaPlayerSourceStillIndex" mediaPlayer="1" index="2"/>
+            <Op id="MediaPlayerSourceStill" mediaPlayer="1"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="1" onAir="True"/>
+            <Op id="DownstreamKeyRate" keyIndex="1" rate="30"/>
+            <Op id="DownstreamKeyPreMultiply" keyIndex="1" preMultiply="True"/>
+            <Op id="DownstreamKeyClip" keyIndex="1" clip="0.5"/>
+            <Op id="DownstreamKeyGain" keyIndex="1" gain="0.699997"/>
+            <Op id="DownstreamKeyInvert" keyIndex="1" invert="False"/>
+            <Op id="DownstreamKeyMaskEnable" keyIndex="1" enable="False"/>
+            <Op id="DownstreamKeyMaskTop" keyIndex="1" top="9"/>
+            <Op id="DownstreamKeyMaskBottom" keyIndex="1" bottom="-9.00002"/>
+            <Op id="DownstreamKeyMaskLeft" keyIndex="1" left="-16"/>
+            <Op id="DownstreamKeyMaskRight" keyIndex="1" right="16"/>
+            <Op id="DownstreamKeyFillInput" keyIndex="1" input="MediaPlayer2"/>
+            <Op id="DownstreamKeyCutInput" keyIndex="1" input="MediaPlayer2Key"/>
+        </Macro>
+        <Macro index="15" name="BB 1 in the Middle" description="{c#F9C107}{ic#F9C107}">
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="3" onAir="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="0" onAir="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="1" onAir="False"/>
+            <Op id="AdvancedChromaKeyForegroundLevel" mixEffectBlockIndex="0" keyIndex="3" foregroundLevel="0"/>
+            <Op id="AdvancedChromaKeyBackgroundLevel" mixEffectBlockIndex="0" keyIndex="3" backgroundLevel="0"/>
+            <Op id="AdvancedChromaKeyKeyEdge" mixEffectBlockIndex="0" keyIndex="3" keyEdge="1"/>
+            <Op id="AdvancedChromaKeySpillSuppress" mixEffectBlockIndex="0" keyIndex="3" spillSuppress="0"/>
+            <Op id="AdvancedChromaKeyFlareSuppress" mixEffectBlockIndex="0" keyIndex="3" flareSuppress="0"/>
+            <Op id="AdvancedChromaKeyForegroundBrightness" mixEffectBlockIndex="0" keyIndex="3" foregroundBrightness="0"/>
+            <Op id="AdvancedChromaKeyForegroundContrast" mixEffectBlockIndex="0" keyIndex="3" foregroundContrast="0"/>
+            <Op id="AdvancedChromaKeyForegroundColour" mixEffectBlockIndex="0" keyIndex="3" foregroundColour="1"/>
+            <Op id="AdvancedChromaKeyForegroundRed" mixEffectBlockIndex="0" keyIndex="3" foregroundRed="0"/>
+            <Op id="AdvancedChromaKeyForegroundGreen" mixEffectBlockIndex="0" keyIndex="3" foregroundGreen="0"/>
+            <Op id="AdvancedChromaKeyForegroundBlue" mixEffectBlockIndex="0" keyIndex="3" foregroundBlue="0"/>
+            <Op id="KeyFillInput" mixEffectBlockIndex="0" keyIndex="3" input="Camera5"/>
+            <Op id="KeyCutInput" mixEffectBlockIndex="0" keyIndex="3" input="MediaPlayer2Key"/>
+            <Op id="KeyMaskEnable" mixEffectBlockIndex="0" keyIndex="3" enable="False"/>
+            <Op id="KeyMaskTop" mixEffectBlockIndex="0" keyIndex="3" top="6.02"/>
+            <Op id="KeyMaskBottom" mixEffectBlockIndex="0" keyIndex="3" bottom="-8.52"/>
+            <Op id="KeyMaskLeft" mixEffectBlockIndex="0" keyIndex="3" left="-16"/>
+            <Op id="KeyMaskRight" mixEffectBlockIndex="0" keyIndex="3" right="16"/>
+            <Op id="KeyFlyEnable" mixEffectBlockIndex="0" keyIndex="3" enable="False"/>
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="0"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="0" singleClipEnabled="False"/>
+            <Op id="HyperDeckSetLoop" hyperDeckIndex="0" loopEnabled="False"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>
+            <Op id="MacroSleep" frames="12"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="3" onAir="True"/>        
+            <Op id="HyperDeckPlay" hyperDeckIndex="0"/>
+            <Op id="MacroSleep" frames="180"/>            
+            <Op id="HyperDeckStop" hyperDeckIndex="0"/>
+        </Macro>
+        <Macro index="16" name="BB 4 Grid Alt" description="{c#F9C017}{ic#F9C107}">
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="3" onAir="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="0" onAir="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="1" onAir="False"/>
+            <Op id="AdvancedChromaKeyForegroundLevel" mixEffectBlockIndex="0" keyIndex="3" foregroundLevel="0"/>
+            <Op id="AdvancedChromaKeyBackgroundLevel" mixEffectBlockIndex="0" keyIndex="3" backgroundLevel="0"/>
+            <Op id="AdvancedChromaKeyKeyEdge" mixEffectBlockIndex="0" keyIndex="3" keyEdge="1"/>
+            <Op id="AdvancedChromaKeySpillSuppress" mixEffectBlockIndex="0" keyIndex="3" spillSuppress="0"/>
+            <Op id="AdvancedChromaKeyFlareSuppress" mixEffectBlockIndex="0" keyIndex="3" flareSuppress="0"/>
+            <Op id="AdvancedChromaKeyForegroundBrightness" mixEffectBlockIndex="0" keyIndex="3" foregroundBrightness="0"/>
+            <Op id="AdvancedChromaKeyForegroundContrast" mixEffectBlockIndex="0" keyIndex="3" foregroundContrast="0"/>
+            <Op id="AdvancedChromaKeyForegroundColour" mixEffectBlockIndex="0" keyIndex="3" foregroundColour="1"/>
+            <Op id="AdvancedChromaKeyForegroundRed" mixEffectBlockIndex="0" keyIndex="3" foregroundRed="0"/>
+            <Op id="AdvancedChromaKeyForegroundGreen" mixEffectBlockIndex="0" keyIndex="3" foregroundGreen="0"/>
+            <Op id="AdvancedChromaKeyForegroundBlue" mixEffectBlockIndex="0" keyIndex="3" foregroundBlue="0"/>
+            <Op id="KeyFillInput" mixEffectBlockIndex="0" keyIndex="3" input="Camera5"/>
+            <Op id="KeyCutInput" mixEffectBlockIndex="0" keyIndex="3" input="MediaPlayer2Key"/>
+            <Op id="KeyMaskEnable" mixEffectBlockIndex="0" keyIndex="3" enable="False"/>
+            <Op id="KeyMaskTop" mixEffectBlockIndex="0" keyIndex="3" top="6.02"/>
+            <Op id="KeyMaskBottom" mixEffectBlockIndex="0" keyIndex="3" bottom="-8.52"/>
+            <Op id="KeyMaskLeft" mixEffectBlockIndex="0" keyIndex="3" left="-16"/>
+            <Op id="KeyMaskRight" mixEffectBlockIndex="0" keyIndex="3" right="16"/>
+            <Op id="KeyFlyEnable" mixEffectBlockIndex="0" keyIndex="3" enable="False"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="0" singleClipEnabled="False"/>
+            <Op id="HyperDeckSetLoop" hyperDeckIndex="0" loopEnabled="False"/>
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="1"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>
+            <Op id="MacroSleep" frames="12"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="3" onAir="True"/> 
+            <Op id="HyperDeckPlay" hyperDeckIndex="0"/>
+            <Op id="MacroSleep" frames="180"/> 
+            <Op id="HyperDeckStop" hyperDeckIndex="0"/>
+        </Macro>
+        <Macro index="17" name="BB Products" description="{c#F9C107}{ic#F9C107}">
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="3" onAir="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="0" onAir="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="1" onAir="False"/>
+            <Op id="AdvancedChromaKeyForegroundLevel" mixEffectBlockIndex="0" keyIndex="3" foregroundLevel="0"/>
+            <Op id="AdvancedChromaKeyBackgroundLevel" mixEffectBlockIndex="0" keyIndex="3" backgroundLevel="0"/>
+            <Op id="AdvancedChromaKeyKeyEdge" mixEffectBlockIndex="0" keyIndex="3" keyEdge="1"/>
+            <Op id="AdvancedChromaKeySpillSuppress" mixEffectBlockIndex="0" keyIndex="3" spillSuppress="0"/>
+            <Op id="AdvancedChromaKeyFlareSuppress" mixEffectBlockIndex="0" keyIndex="3" flareSuppress="0"/>
+            <Op id="AdvancedChromaKeyForegroundBrightness" mixEffectBlockIndex="0" keyIndex="3" foregroundBrightness="0"/>
+            <Op id="AdvancedChromaKeyForegroundContrast" mixEffectBlockIndex="0" keyIndex="3" foregroundContrast="0"/>
+            <Op id="AdvancedChromaKeyForegroundColour" mixEffectBlockIndex="0" keyIndex="3" foregroundColour="1"/>
+            <Op id="AdvancedChromaKeyForegroundRed" mixEffectBlockIndex="0" keyIndex="3" foregroundRed="0"/>
+            <Op id="AdvancedChromaKeyForegroundGreen" mixEffectBlockIndex="0" keyIndex="3" foregroundGreen="0"/>
+            <Op id="AdvancedChromaKeyForegroundBlue" mixEffectBlockIndex="0" keyIndex="3" foregroundBlue="0"/>
+            <Op id="KeyFillInput" mixEffectBlockIndex="0" keyIndex="3" input="Camera5"/>
+            <Op id="KeyCutInput" mixEffectBlockIndex="0" keyIndex="3" input="MediaPlayer2Key"/>
+            <Op id="KeyMaskEnable" mixEffectBlockIndex="0" keyIndex="3" enable="False"/>
+            <Op id="KeyMaskTop" mixEffectBlockIndex="0" keyIndex="3" top="6.02"/>
+            <Op id="KeyMaskBottom" mixEffectBlockIndex="0" keyIndex="3" bottom="-8.52"/>
+            <Op id="KeyMaskLeft" mixEffectBlockIndex="0" keyIndex="3" left="-16"/>
+            <Op id="KeyMaskRight" mixEffectBlockIndex="0" keyIndex="3" right="16"/>
+            <Op id="KeyFlyEnable" mixEffectBlockIndex="0" keyIndex="3" enable="False"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="0" singleClipEnabled="False"/>
+            <Op id="HyperDeckSetLoop" hyperDeckIndex="0" loopEnabled="True"/>
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="2"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="1" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetLoop" hyperDeckIndex="1" loopEnabled="False"/>
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="1" clipIndex="0"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="1" speedPercent="1"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>            
+            <Op id="MacroSleep" frames="12"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="3" onAir="True"/> 
+            <Op id="HyperDeckPlay" hyperDeckIndex="1"/>
+            <Op id="HyperDeckPlay" hyperDeckIndex="0"/>
+            <Op id="MacroSleep" frames="320"/> 
+            <Op id="HyperDeckStop" hyperDeckIndex="0"/>
+        </Macro>
+        <Macro index="18" name="BB David &amp; Products" description="{c#F9C107}{ic#F9C107}">
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="3" onAir="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="0" onAir="False"/>
+            <Op id="DownstreamKeyOnAir" keyIndex="1" onAir="False"/>
+            <Op id="AdvancedChromaKeyForegroundLevel" mixEffectBlockIndex="0" keyIndex="3" foregroundLevel="0"/>
+            <Op id="AdvancedChromaKeyBackgroundLevel" mixEffectBlockIndex="0" keyIndex="3" backgroundLevel="0"/>
+            <Op id="AdvancedChromaKeyKeyEdge" mixEffectBlockIndex="0" keyIndex="3" keyEdge="1"/>
+            <Op id="AdvancedChromaKeySpillSuppress" mixEffectBlockIndex="0" keyIndex="3" spillSuppress="0"/>
+            <Op id="AdvancedChromaKeyFlareSuppress" mixEffectBlockIndex="0" keyIndex="3" flareSuppress="0"/>
+            <Op id="AdvancedChromaKeyForegroundBrightness" mixEffectBlockIndex="0" keyIndex="3" foregroundBrightness="0"/>
+            <Op id="AdvancedChromaKeyForegroundContrast" mixEffectBlockIndex="0" keyIndex="3" foregroundContrast="0"/>
+            <Op id="AdvancedChromaKeyForegroundColour" mixEffectBlockIndex="0" keyIndex="3" foregroundColour="1"/>
+            <Op id="AdvancedChromaKeyForegroundRed" mixEffectBlockIndex="0" keyIndex="3" foregroundRed="0"/>
+            <Op id="AdvancedChromaKeyForegroundGreen" mixEffectBlockIndex="0" keyIndex="3" foregroundGreen="0"/>
+            <Op id="AdvancedChromaKeyForegroundBlue" mixEffectBlockIndex="0" keyIndex="3" foregroundBlue="0"/>
+            <Op id="KeyFillInput" mixEffectBlockIndex="0" keyIndex="3" input="Camera5"/>
+            <Op id="KeyCutInput" mixEffectBlockIndex="0" keyIndex="3" input="MediaPlayer2Key"/>
+            <Op id="KeyMaskEnable" mixEffectBlockIndex="0" keyIndex="3" enable="False"/>
+            <Op id="KeyMaskTop" mixEffectBlockIndex="0" keyIndex="3" top="6.02"/>
+            <Op id="KeyMaskBottom" mixEffectBlockIndex="0" keyIndex="3" bottom="-8.52"/>
+            <Op id="KeyMaskLeft" mixEffectBlockIndex="0" keyIndex="3" left="-16"/>
+            <Op id="KeyMaskRight" mixEffectBlockIndex="0" keyIndex="3" right="16"/>
+            <Op id="KeyFlyEnable" mixEffectBlockIndex="0" keyIndex="3" enable="False"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="0" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetLoop" hyperDeckIndex="0" loopEnabled="True"/>
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="0" clipIndex="3"/>
+            <Op id="HyperDeckSetSingleClip" hyperDeckIndex="1" singleClipEnabled="True"/>
+            <Op id="HyperDeckSetLoop" hyperDeckIndex="1" loopEnabled="True"/>
+            <Op id="HyperDeckSetSourceClipIndex" hyperDeckIndex="1" clipIndex="0"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="1" speedPercent="1"/>
+            <Op id="HyperDeckSetSpeed" hyperDeckIndex="0" speedPercent="1"/>
+            <Op id="MacroSleep" frames="12"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="3" onAir="True"/> 
+            <Op id="HyperDeckPlay" hyperDeckIndex="1"/>
+            <Op id="HyperDeckPlay" hyperDeckIndex="0"/>
+            <Op id="MacroSleep" frames="180"/> 
+            <Op id="HyperDeckStop" hyperDeckIndex="0"/>
+        </Macro>       
+    </MacroPool>
+    <MacroControl loop="False"/>
+</Profile>
